@@ -38,6 +38,17 @@ Many aspects of the CLI's behavior can be customized using the `ttcli.cfg` file 
 
 The default configuration file contains lots of options along with explanations of what they do.
 
+If your account has mutiple accounts you may want to update the configuration default-account to the account you want to use.
+
+Mac/OS python environment.
+If you are running the cli in a seperate python environment and you get this error:
+[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)
+
+Running this command while in the environment should fix the issue
+```
+pip install pip-system-certs
+```
+
 ## Development/Contributing
 
 This project includes a number of helpers in the `Makefile` to streamline common development tasks.

@@ -40,8 +40,8 @@ The default configuration file contains lots of options along with explanations 
 
 If your account has mutiple accounts you may want to update the configuration default-account to the account you want to use.
 
-Mac/OS python environment.</br>
-If you are running the cli in a seperate python environment and you get this error:
+Mac/OS python environment:</br>
+If you are running the cli in a seperate python environment and you get this error: </br>
 [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)
 
 Running this command while in the environment should fix the issue
